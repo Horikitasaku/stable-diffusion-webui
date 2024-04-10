@@ -6,7 +6,8 @@ import importlib.util
 import shlex
 import platform
 import json
-
+# os.environ["http_proxy"] = "http://127.0.0.1:7891"
+# os.environ["https_proxy"] = "http://127.0.0.1:7891"
 from modules import cmd_args
 from modules.paths_internal import script_path, extensions_dir
 
